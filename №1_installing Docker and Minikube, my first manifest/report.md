@@ -85,3 +85,5 @@ Familiarize yourself with Minikube and Docker tools, deploy your first pod.
 ![Image text](images/8.png)
 
 12) Container and service organization scheme
+
+![Image text](images/9.png)
