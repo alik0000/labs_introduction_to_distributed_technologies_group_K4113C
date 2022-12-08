@@ -91,3 +91,5 @@ Familiarize yourself with the types of container deployment "controllers", famil
 ![Image text](images/9.png)
 
 13) Container and service organization scheme
+
+![Image text](images/10.png)
