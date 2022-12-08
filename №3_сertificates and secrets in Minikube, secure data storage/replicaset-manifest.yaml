@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: replicaset-manifest
+  labels:
+    app: application-3
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: application-3
+  template:
+    metadata:
+      labels:
+        app: application-3
+    spec:
+      containers:
+        - name: application-3-container
+          image: ifilyaninitmo/itdt-contained-frontend:master
+          ports:
+            - containerPort: 3000
+          env:
+            - name: REACT_APP_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: config-map
+                  key: react_app_user_name
+            - name: REACT_APP_COMPANY_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: config-map
+                  key: react_app_company_name
