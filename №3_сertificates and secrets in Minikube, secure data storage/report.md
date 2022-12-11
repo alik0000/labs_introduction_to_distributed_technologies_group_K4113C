@@ -14,7 +14,7 @@ Lab: Lab3
 
 Date of create: 07.12.2022
 
-Date of finished: 09.12.2022
+Date of finished: 10.12.2022
 
 # Certificates and "secrets" in Minikube, secure data storage.
 
@@ -122,5 +122,4 @@ Get acquainted with certificates and "secrets" in Minikube, rules for secure dat
 
 
 Container and service organization scheme
-
-![Image text](images/10.png)
+![Image text](images/13.png)
